@@ -1,0 +1,19 @@
+{
+    "name": "qianrenju",
+    "version": "1.0.0",
+    "description": "",
+    "main": "app.js",
+    "scripts": {
+        "start": "nodemon app.js -V",
+        "forever": "forever start app.js --uid qianrenju-server"
+    },
+    "author": "Fisher",
+    "license": "",
+    "dependencies": {
+        "body-parser": "^1.18.3",
+        "express": "^4.16.3",
+        "morgan": "^1.9.0",
+        "request": "^2.87.0"
+    },
+    "devDependencies": {}
+}
