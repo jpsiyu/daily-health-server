@@ -5,7 +5,7 @@
     "main": "app.js",
     "scripts": {
         "start": "nodemon app.js -V",
-        "forever": "forever start app.js --uid qianrenju-server"
+        "forever": "forever start app.js --uid daily-health-server"
     },
     "author": "Fisher",
     "license": "",
